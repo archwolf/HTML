@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body{
+            color:#84a4c5;
+        }
+        #head{
+            width:300px;
+            height:50px;
+            margin-left:270px;
+        }
+        #thumb{
+            width:200px;
+            height:280px;
+            /*//border:solid 1px #ed1e26;*/
+            display:inline-block;
+            margin-left:20px;
+            background:#ffffff;
+            border:solid 1px #e4f3fc;
+            border-radius:5px;
+
+            
+        }
+        #thumb2 {
+            width: 200px;
+            height: 280px;
+            /*//border:solid 1px #ed1e26;*/
+            display:inline-block;
+            margin-left: 20px;
+            background: #ffffff;
+            border: solid 1px #e4f3fc;
+            border-radius: 5px;
+            
+        }
+        #wrapper {
+            width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 10px;
+        }
+            img{
+            width:150px;
+            height:100px;
+            padding-top:10px;
+            margin-left:20px;
+        }
+        h1,h2,h3{
+            color:#243a71;
+        }
+        .price{
+            background:#2c425a;
+            color:white;
+            width:100px;
+            height:25px;
+            padding-top:5px;
+            margin-left:90px;
+            margin-top:20px;
+            text-align:center;
+            border:solid 1px #84a4c5;
+            border-top-left-radius:5px;
+        }
+        #form {
+            float: right;
+            border: solid 1px #84a4c5;
+            vertical-align:top;
+            height:500px;
+        }
+        label{
+           
+            text-align:center;
+            width:50px;
+           
+            
+        }
+        input {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        b{
+            font-size:60%;
+            vertical-align:top;
+            margin-right:5px;
+            margin-left:5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="head"><h1>Apple's Laptopts(6)</h1></div><br/>
+       
+        <div id="thumb">
+            <h3>Apple MacBook Air</h3>11.6inch/1.3GHz<br />Haswell <br />
+            <img src="images/ap1.jpg" /><br />
+            <div class="price">
+                $1.729.00
+            </div>
+        </div>
+        <div id="thumb">
+            <h3>Apple MacBook Air</h3>11.6inch/1.4GHz<br />Haswell <br />
+            <img src="images/ap2.jpg" /><br />
+            <div class="price">
+                $1.825.00
+            </div>
+        </div>
+        <div id="thumb">
+            <h3>Apple MacBook Air</h3>11.6inch/1.4GHz<br />Haswell <br />
+            <img src="images/ap2.jpg" /><br />
+            <div class="price">
+                $1.825.00
+            </div>
+        </div>
+        <div id="form">
+            <form>
+                <label>Price </label><br />
+                <b>1700</b><input type="range" min="1700" max="2600" step="100" /><b>2600</b> <br />
+                <label for="">RAM </label><br />
+                <b>2048</b><input type="range" min="2048" max="4096" step="100" /><b>4096</b><br />
+                <label for="">Disc </label><br />
+                <b>100</b><input type="range" min="100" max="2000" step="100" /><b>2000</b><br />
+                <label for="">Display </label><br />
+                <b>11.6</b><input type="range" min="11.6" max="18.4" step="1.2" /><b>18.4</b><br />
+                <label for="">Weight </label><br />
+                <b>1</b><input type="range" min="1" max="6" step="1" /><b>6</b><br />
+                <label for="">Warranty </label><br />
+                <b>12</b><input type="range" min="12" max="60" step="6" /><b>60</b><br />
+            </form>
+        </div>
+       
+        <br/>
+        <div id="thumb2">
+            <h3>Apple MacBook Air</h3>11.6inch/1.4GHz<br />Haswell <br />
+            <img src="images/ap2.jpg" /><br />
+            <div class="price">
+                $1.825.00
+            </div>
+        </div>
+        <div id="thumb2">
+            <h3>Apple MacBook Air</h3>11.6inch/1.4GHz<br />Haswell <br />
+            <img src="images/ap2.jpg" /><br />
+            <div class="price">
+                $1.825.00
+            </div>
+        </div>
+        <div id="thumb2">
+            <h3>Apple MacBook Air</h3>11.6inch/1.4GHz<br />Haswell <br />
+            <img src="images/ap2.jpg" /><br />
+            <div class="price">
+                $1.825.00
+            </div>
+        </div>
+       
+       
+    </div>
+</body>
+</html>
