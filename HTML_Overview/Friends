@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link media="screen" type="text/css" rel="stylesheet" href="css/style.css" />
+    <title>Friends</title>
+</head>
+<body>
+    <div>
+        <h1>Wolf Social Network</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="friends.html">Friends</a></li>
+        </ul>
+    </div>
+    <div><h1>Friends of Wolfy</h1></div>
+    <div>
+        <i>Such Friend</i><br />
+        &nbsp;&nbsp;best friend<br />
+        <i>Many Friends</i><br />  
+        &nbsp;&nbsp;unknown
+    </div>
+</body>
+</html>
