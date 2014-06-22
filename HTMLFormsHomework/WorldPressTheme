@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>World Press Theme</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div><img src="images/logo.png" /></div>
+    <div>Upload a theme <button>Choose file</button> No file chosen</div>
+    <div>
+       
+        <form> Or search in wordpress
+            <input type="text" name="text"  />
+            <img src="images/icon.png" />
+        </form>
+        
+    </div>
+</body>
+</html>
