@@ -1,0 +1,18 @@
+body{
+    background-color:#add8e6
+}
+div{
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:solid;
+    border-width:90%;
+    border-width:1px;
+}
+ul{
+     list-style-type: circle;
+}
+#image{
+    width:150px;
+    border-width:1px;
+
+}
