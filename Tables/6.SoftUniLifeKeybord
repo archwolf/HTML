@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link media="screen" type="text/css" rel="stylesheet" href="style/tablemenu.css" />
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4" style="text-align:center"><a href="http://softuni.bg"><button type="button" class="classname"><h1>SOFTWARE UNIVERSITY</h1></button></a></td>
+        </tr>
+        <tr>
+            <td colspan="2"><a href="https://www.google.bg"><button type="button" class="classname">GOOGLE</button></a></td>
+            <td colspan="2"><a href="https://github.com/"><button type="button" class="classname">GitHub</button></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.facebook.com/"><button type="button" class="classname">FaceBook</button></a></td>
+            <td><a href="https://mail.google.com"><button type="button" class="classname">GMail</button></a></td>
+            <td><a href="https://www.youtube.com/"><button type="button" class="classname">YouTube</button></a></td>
+            <td><a href="http://gabrielecirulli.github.io/2048/"><button type="button" class="classname">2048</button></a></td>
+        </tr>
+        <tr>
+            <td ><a href="http://en.wikipedia.org/wiki/Food"><button type="button" class="classname">Food</button></a></td>
+            <td colspan="2"><a href="http://us.bladeandsoul.com/"><button type="button" class="classname">Game</button></a></td>
+            <td>
+                <table border="1" class="small">
+                    <tr>
+                        <td><a href="http://www.social-life.co/"><button type="button" class="classname">Social Life</button></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://en.wikipedia.org/wiki/Sleep"><button type="button" class="classname">Sleep</button></a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><a href="http://www.heineken.com/bg/AgeGateway.aspx"><button type="button" class="classname" style="text-align:right"><h2>Beer>>></h2></button></a></td>
+            <td><a href="http://us.battle.net/wow/en/"><button type="button" class="classname">WC</button></a></td>
+        </tr>
+    </table>
+</body>
+</html>
