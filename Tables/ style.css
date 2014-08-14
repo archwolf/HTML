@@ -1,0 +1,35 @@
+body{
+    color:white;
+    font-size:15px;
+}
+div{
+
+    width:100%;
+    background:#234465;
+    padding-left:20%;
+}
+table{
+    align-content:center;
+    background:#234465;
+}
+td{
+    text-align:center;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+ul li{
+    list-style-type:none;
+}
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+td.big {
+    width:100px;
+    height:100px;
+}
