@@ -1,0 +1,104 @@
+<!DOCTYPE html/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Flight Order</title>
+    <style>
+        body{
+            background:#ffc0cb;
+        }
+        label{
+            font:italic;
+        }
+        h1{
+            text-align:center;
+        }
+        select{
+            margin-bottom:30px;
+            width:230px;
+        }
+        .selectRight{
+            margin-bottom:5px;
+        }
+        option {
+            width: 200px;
+            box-sizing:border-box;
+        }
+        input {
+            width: 230px;
+            box-sizing: border-box;
+        }
+        .number{
+            width:32%;
+        }
+        #left  {
+            float:left;
+            text-align:left;
+            font:italic;
+        }
+        #right {
+            float: left;
+            text-align: left;
+            font: italic;
+        }
+        br {
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FLIGHT ORDER</h1>
+    <div id="left">
+        <form>
+            <label for="">From</label><br/>
+            <select name="enterCity" >
+                <option value="enter a city">enter a city</option>
+                <option value="sofiq">Sofiq</option>
+                <option value="burgas">Burgas</option>
+                <option value="varna">Varna</option>
+            </select><br/>
+            <label for="">Departure Date</label><br/>
+            <input type="date" value="departureDate" />
+            <br />
+            <label for="" >Return date</label><br />
+            <input type="date" value="returnDate" /><br/>
+            12+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   0-2<br/>
+            <div style="float:left;display:inline;width:205px">
+                <input class="number" type="number" value="0" name="12+" min="0" max="10" />
+                <input class="number"  type="number" value="0" name="2-12" min="0" max="10" />
+                <input class="number"  type="number" value="0" name="0-2" min="0" max="10" />
+            </div>
+        </form>
+    </div>
+    <div id="right">
+        <form>
+            <label for="">From</label><br />
+            <select class="selectRight" name="enterCity">
+                <option value="enter a city">enter a city</option>
+                <option value="sofiq">Rome</option>
+                <option value="burgas">Paris</option>
+                <option value="varna">Tokyo</option>
+            </select><br />
+            <input style="width:10px;margin-bottom:5px;" type="checkbox"  />Prefer directs<br/>
+            <label for="">Time Interval</label><br />
+            <div style="width:200px;display:inline-block;margin-top:4px">
+                <input style="width:98px" type="time" value="interval1" />
+                <input style="width:98px" type="time" value="interval2" />
+            </div><br/>
+            <label for="">Time Interval</label><br />
+            <div style="width:200px;display:inline-block;">
+                <input style="width:98px" type="time" value="interval1" />
+                <input style="width:98px" type="time" value="interval2" />
+            </div><br/>
+            <label for="">Economy class</label><br />
+            <select  name="economyclass">
+                <option value="Economy">Economy</option>
+                <option value="bussiness">Bussiness</option>
+                <option value="1st Class">1st Class</option>
+            </select>
+            <br/>
+            <input type="submit" value="Search" name="search" />
+        </form>
+    </div>
+
+</body>
+</html>
