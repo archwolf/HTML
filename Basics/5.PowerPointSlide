@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link media="screen" type="text/css" rel="stylesheet" href="css/basic.css" />
+    <title>Power point slide </title>
+</head>
+<body>
+    
+
+    <header>
+        <h1 style="display:inline">Heading and Paragraphs <img id="logo" src="images/logo.jpg" /></h1>
+    <br />
+    <ol>
+
+        <li>
+            <h2>Heading Tags: </h2><h1>&lth1&gt</h1> ... <h1>&lth6&gt</h1><br /><br />
+            <div>
+                &nbsp;&nbsp;&lth1&gt Heading 1 &lt/h1&gt<br>
+                &lth2&gt Sub heading 2 &lt/h2&gt<br>
+                &lth3&gt Sub heading 3&lt/h3&gt<br />
+            </div>
+        </li>
+        <br />
+        <li>
+            <h2>Paragraph Tags:</h2> <h1>&ltp&gt</h1><br /><br />
+            <div>
+                &nbsp;&nbsp;&ltp&gtThis is my first paragrapgh&lt/p&gt<br />
+                &ltp&gtThis is my ssecond paragraph &lt/p&gt<br />
+            </div>
+        </li>
+        <br />
+        <li>
+            <h2>Sections: </h2><h1>&ltdiv&gt</h1><h2> and </h2><h1>&ltspan&gt</h1><br /><br />
+            <div>
+                &nbsp;&nbsp;&ltdiv style=&quotbackground: skyblue;&quot&gt<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;This is a div<br />
+                &lt/div&gt<br />
+            </div>
+        </li> 
+    </ol>       
+</body>
+</html>
