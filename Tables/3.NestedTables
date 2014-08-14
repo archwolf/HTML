@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td><img src="images\logo.png"  width="150" /></td>
+            <td>
+                <table border="1" style="margin-bottom:5px; margin-left:5px;margin-right:5px;margin-top:5px;">
+                    <tr><td style="padding-left:5px"><h1>Software</h1></td></tr>
+                    <tr><td style="padding-left:5px"><h1>University</h1></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
