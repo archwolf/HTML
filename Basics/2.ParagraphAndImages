@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Paragraphs and images</title>
+</head>
+<body>
+    <h3>Woodbook</h3>
+    <p>A book writen to develop <i>mans skills</i> needed for life</p>
+    <h3>Workbook</h3>
+    <p>A book writen to develop mans <b>knowledge</b> for work</p>
+    <br />
+    <img src="images/wolf.jpg" alt="" width="200" />
+</body>
+</html>
