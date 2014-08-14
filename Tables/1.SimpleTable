@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple Table</title>
+</head>
+<body>
+        <table width="400">
+            <tr>
+                <td colspan="2">
+                <h1>Software University</h1>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://softuni.bg"><img src="images/logo.png" alt="" width="150" /></a>
+                   
+                </td>
+                <td><b>Aceessible and high quality software edication.</b><br />Our mission is to make pepole we train true professionals in the software industry and support then finding employment</td>
+            </tr>
+        </table>
+</body>
+</html>
