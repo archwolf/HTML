@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <td colspan="4">
+                    <h1>Web Fundamentals exam results</h1> 
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="text-align:center">
+                <td width="50"><h3>№</h3></td>
+                <td><h3>First name</h3></td>
+                <td><h3>Last name</h3></td>
+                <td><h3>Score</h3></td>
+            </tr>
+            <tr>
+                <td width="50">01</td>
+                <td>Gosho</td>
+                <td>Goshev</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td width="50">02</td>
+                <td>Tosho</td>
+                <td>Toshev</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td width="50">03</td>
+                <td>Pesho</td>
+                <td>Goshev</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td width="50">04</td>
+                <td>Gencho</td>
+                <td>Goshev</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td width="50">05</td>
+                <td>Drago</td>
+                <td>Goshev</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="text-align:right">
+                <td colspan="4">
+                    Average score from 05 participants : 500
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
