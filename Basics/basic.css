@@ -1,0 +1,51 @@
+body {
+	line-height: 1;
+	color: white;
+	background-image: url('../images/paper.jpg');
+    background-size:100%;
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+h1 {
+    color:#E0BC80;
+    display:inline;
+}
+h2{
+    display:inline;
+}
+ol{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+li{
+   padding-left: 2em; 
+   text-indent: -.7em;
+   color:#C7C3C1;
+}
+li:before {
+    font-size:30px;
+    content: "▪ ";
+    color:#E0BC80;
+}
+div{
+    background:#2B2B29;
+    opacity:0.6;
+    width:90%;
+    margin-left:10px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#4F4F4E;
+}
+br{
+    margin-bottom:7px;
+}
+#logo{
+    overflow: hidden;
+    width:200px;
+    position:relative;
+    background-position: right top;
+    margin-left:20%;
+    top: 20px;
+    right: -690px;
+
+}
